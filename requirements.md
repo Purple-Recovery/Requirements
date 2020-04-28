@@ -1,0 +1,183 @@
+#Homework 3: Requirements 
+**Purple Recovery**
+------
+## Glossary
+* __Breadcrumb Link__: a type of secondary navigation scheme that reveals the user's location in the website relative to the Main Dashboard page.
+* __Card Button__: An html card component that acts as a button to link to an external site.
+* __Sticky__: fixed position on screen and always visible regardless of the user’s current scrolling position.
+
+
+
+## 1: Main Dashboard
+1.1. This web app will be made with HTML, CSS, JavaScript, and React.
+
+1.2.The web app will be accessible via Google Chrome, Firefox, and Internet Explorer.
+
+1.3 The colors and typography used for the web app will adhere to the UW Branding Guide.
+
+ _Image of University of Washington Branding Guide for reference_
+
+![University of Washington Branding Guide](img/brand.png)
+
+
+1.4. The web app will be divided into these 5 sections: Resources, Responses, Community, Trackers & Dashboards, and Drop a Note. 
+
+1.5. Each section will be displayed as a box with content on the main page.
+
+_Image of Main Dashboard view as a wireframe_
+
+![Wireframe of Main Dashboard view](img/dashboard.jpg)
+
+1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
+	* Resources Section - See All
+	* Responses - “Find Articles”
+	* Community - “Stay Connected”
+
+--
+1.6 used to be:
+
+* Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page.
+* The buttons to open a section’s additional information on a new Section View Page will be named accordingly: Resources - “See All”, Responses - “Find Articles”, and Community - “Stay Connected”.
+
+--
+
+1.7. On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. These will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
+
+--
+1.7 used to be: 
+
+* On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. 
+* The title and subheader will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
+
+--
+
+1.8. On the top right of the landing page, there will be a banner displaying the title and date posted of the newest message or update posted in the Messages & Updates section found in the [Official UW COVID-19 Page](https://www.washington.edu/coronavirus/). Clicking this will link to the corresponding message or update link.
+
+
+##2: Resources
+2.1. The Resources section will be divided into two subsections as columns.
+
+2.2. The left column will be titled “UW FAQs” and the right column titled “Quick Links”.
+
+2.3. The “UW FAQs” column will contain 5 sub-sections in rows. Each will be a card buttons with the following titles: “Health, Wellness, and Prevention”, “Staff and Student Workers”, “Classes, Academics & Commencement”, “University Operations”, and “Travel and Study Abroad”. 
+
+2.4. Clicking any one of the 5 card buttons will redirect the user to the corresponding section on the official UW FAQ Page.
+
+2.5. The sub-section hyperlinks will follow this format: https://www.washington.edu/coronavirus/#[subsection name]
+Where [subsection name] will be replaced with the following respective names: ‘health’, ‘staff’, ‘classes’, ‘operations’, and ‘travel’.
+
+2.6. The “Quick Links” section, which is the right column underneath the Resources section, will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”. These will be displayed in a list view of text hyperlinks, and clicking any of them will redirect the user to that resource’s external website.
+
+--
+2.6. used to be: 
+
+* The “Quick Links” section will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”.
+* Each of the hyperlinks will be displayed in a list view underneath the “Quick Links” section as a text hyperlink.
+* Clicking one of them will redirect the user to that resource’s external website. 
+
+--
+
+##3: Responses
+
+3.1. This section will contain links to UW-community published material (The Daily, UW Faculty Messages, UW Facebook Pages, etc.).
+
+3.2. The articles will be displayed as card buttons with the article title on the right and the page cover image in the article on the left (if available). 
+
+3.4. The Responses section will display 3 of the most recently added articles to Purple Recovery on the main dashboard page.
+
+3.5. The section will display a ‘Find Articles’ button in the bottom right corner that links to the Responses’ section view page.
+
+
+##4: Community
+4.1. This section will contain links to Purple Recovery team-curated community resources.
+
+4.2. Each link will be displayed as a card button with the Community resource title on the right and a related icon on the left. 
+
+4.3. The Community section will display 3 of the most recently added community resources to Purple Recovery on the main dashboard page.
+
+4.4. The section will display a ‘Stay Connected’ button in the bottom right corner that links to the Community’s section view page.
+
+
+##5: Trackers & Dashboards
+5.1 This section will contain links to data visualization dashboards regarding COVID-19 statistics. 
+
+5.2. The links in this section will be displayed as card buttons with the Tracker/Dashboard name on the main dashboard page. 
+
+5.3. There will be three card buttons:
+
+5.4. The first card buttons will be titled “UW COVID-19” and will link to the UW COVID-19 Testing Results page (https://www.washington.edu/coronavirus/testing-results/) .
+
+5.5. The second card button will be titled “King County” and will link to the King County COVID-19 data dashboard (https://www.kingcounty.gov/depts/health/communicable-diseases/disease-control/novel-coronavirus/data-dashboard.aspx)
+
+5.6. The third card button will be titled “Washington State” and will link to the Washington Department of Health (DOH) COVID-19 page (https://www.doh.wa.gov/emergencies/coronavirus)
+
+
+
+##6: Drop a Note
+
+_Image of Drop a Note form as a wireframe_
+
+![Drop a Note form Wireframe](img/dropanote.png)
+
+
+6.1. On the bottom right of each page, there will be a sticky square section, containing, “Anything missing?” and a button that contains the text “Drop a Note”. 
+
+6.2. When clicked, the “Drop a Note” button will overlay a modal card form on top of the user’s current page position. 
+
+6.3. The form created from clicking “Drop a Note” will contain a card title, description, input fields, and a “Submit” button. 
+
+6.4. The submitted screen will have an “X” icon in the top right corner; clicking it closes the form
+
+6.5. The user will be able to check the “Feedback?” and “Resource?” checkboxes
+
+6.6. The user will be able to input string values in the “Full Name” and “Email” fields.
+
+6.7. The “Type of Resource” dropdown will consist of the following options: Resources, Responses, Community, Trackers and Dashboards, and Other/I’m Not Sure.
+
+6.8. If the “Resource?” checkbox is clicked, the user will be able to input string values in the “Link to Resource” and “Notes” fields and use the “Type of Resource” dropdown to choose a resource type. 
+
+6.9. If the “Feedback?” checkbox is clicked, the user will be able to input string values in the “Feedback”  field.
+
+6.10. The “Submit” button will push the entered data through an internal verification process.
+
+6.11. The verification process is done through Javascript or React and will ensure that categories that are checked should have all fields filled in and that formatting for email is syntactically correct (i.e. example@hostsite.com).
+
+6.12. The verification process will also validate submitted links in Javascript.
+
+6.13. If the submission is found to be incomplete by this verification process, the user will be prompted to edit fields that did not pass the verification process and submit again.
+
+6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
+
+6.15. Clicking the top right “X” icon will close the modal sheet.
+
+_Image of successful Drop a Note form submission as a wireframe_
+
+![Drop a Note form submission](img/submission.png)
+
+
+##7: Section View Page
+
+_Image of Response Section View Page as a wireframe_
+
+
+![Responses Section View Page Wireframe](img/sectionview.png)
+
+7.1. A section view page will be made for the following three sections: Resources, Responses, and Community.
+
+7.2. The section view page will contain a breadcrumb link in the top left below the site title.
+
+7.3. Each of the breadcrumbs will link to the respective internal page that is displayed in the list.
+
+7.4. The section view page will contain a title of the section that it is related to.
+
+7.5. The section view page will display a more comprehensive list of relevant links to its parent section from the main dashboard, as an overflow for the main page.
+
+7.6. All urls will be populated by developers inside of the HTML file.
+
+7.7. The list of relevant links will also contain a descriptive label or sentence about the links that are listed.
+
+7.8. The “Drop a Note” feature will stay sticky in the bottom right of the page view--the same location as the main dashboard.
+
+7.9. The section view page will contain links to other resources’ section view pages on the right hand side under the heading “Other Sections”.
+
+------
