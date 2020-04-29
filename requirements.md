@@ -1,12 +1,11 @@
 #Homework 3: Requirements 
 **Purple Recovery**
 ------
+
 ## Glossary
 * __Breadcrumb Link__: a type of secondary navigation scheme that reveals the user's location in the website relative to the Main Dashboard page.
 * __Card Button__: An html card component that acts as a button to link to an external site.
 * __Sticky__: fixed position on screen and always visible regardless of the user’s current scrolling position.
-
-
 
 ## 1: Main Dashboard
 1.1. This web app will be made with HTML, CSS, JavaScript, and React.
@@ -16,35 +15,33 @@
 1.3 The colors and typography used for the web app will adhere to the UW Branding Guide.
 
  _Image of University of Washington Branding Guide for reference_
-
 ![University of Washington Branding Guide](img/brand.png)
-
 
 1.4. The web app will be divided into these 5 sections: Resources, Responses, Community, Trackers & Dashboards, and Drop a Note. 
 
 1.5. Each section will be displayed as a box with content on the main page.
 
 _Image of Main Dashboard view as a wireframe_
-
 ![Wireframe of Main Dashboard view](img/dashboard.jpg)
 
-1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
-	* Resources Section - See All
-	* Responses - “Find Articles”
-	* Community - “Stay Connected”
+**Modified/Current/Current** 1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
+
+* Resources Section - See All
+* Responses - Find Articles
+* Community - Stay Connected
 
 --
-1.6 used to be:
+**1.6 used to be:**
 
 * Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page.
 * The buttons to open a section’s additional information on a new Section View Page will be named accordingly: Resources - “See All”, Responses - “Find Articles”, and Community - “Stay Connected”.
 
 --
 
-1.7. On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. These will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
+**Modified/Current** 1.7. On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. These will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
 
 --
-1.7 used to be: 
+**1.7 used to be:** 
 
 * On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. 
 * The title and subheader will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
@@ -53,8 +50,8 @@ _Image of Main Dashboard view as a wireframe_
 
 1.8. On the top right of the landing page, there will be a banner displaying the title and date posted of the newest message or update posted in the Messages & Updates section found in the [Official UW COVID-19 Page](https://www.washington.edu/coronavirus/). Clicking this will link to the corresponding message or update link.
 
-
 ##2: Resources
+
 2.1. The Resources section will be divided into two subsections as columns.
 
 2.2. The left column will be titled “UW FAQs” and the right column titled “Quick Links”.
@@ -66,10 +63,10 @@ _Image of Main Dashboard view as a wireframe_
 2.5. The sub-section hyperlinks will follow this format: https://www.washington.edu/coronavirus/#[subsection name]
 Where [subsection name] will be replaced with the following respective names: ‘health’, ‘staff’, ‘classes’, ‘operations’, and ‘travel’.
 
-2.6. The “Quick Links” section, which is the right column underneath the Resources section, will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”. These will be displayed in a list view of text hyperlinks, and clicking any of them will redirect the user to that resource’s external website.
+**Modified/Current** 2.6. The “Quick Links” section, which is the right column underneath the Resources section, will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”. These will be displayed in a list view of text hyperlinks, and clicking any of them will redirect the user to that resource’s external website.
 
 --
-2.6. used to be: 
+**2.6. used to be:** 
 
 * The “Quick Links” section will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”.
 * Each of the hyperlinks will be displayed in a list view underneath the “Quick Links” section as a text hyperlink.
@@ -87,31 +84,33 @@ Where [subsection name] will be replaced with the following respective names: �
 
 3.5. The section will display a ‘Find Articles’ button in the bottom right corner that links to the Responses’ section view page.
 
-
 ##4: Community
-4.1. This section will contain links to Purple Recovery team-curated community resources.
+
+**Modified/Current** 4.1. This section will contain the three most recently added Community links to Purple Recovery. These links can either be team-curated (added by Purple Recovery team) or added by the public via "Drop A Note" (and then verified by Purple Recovery team). 
+
+--
+**4.1 used to be:**
+
+* This section will contain links to Purple Recovery team-curated community resources.
+* The Community section will display 3 of the most recently added community resources to Purple Recovery on the main dashboard page.
+
+--
 
 4.2. Each link will be displayed as a card button with the Community resource title on the right and a related icon on the left. 
 
-4.3. The Community section will display 3 of the most recently added community resources to Purple Recovery on the main dashboard page.
-
-4.4. The section will display a ‘Stay Connected’ button in the bottom right corner that links to the Community’s section view page.
-
+4.3. The section will display a ‘Stay Connected’ button in the bottom right corner that links to the Community’s section view page.
 
 ##5: Trackers & Dashboards
+
 5.1 This section will contain links to data visualization dashboards regarding COVID-19 statistics. 
 
 5.2. The links in this section will be displayed as card buttons with the Tracker/Dashboard name on the main dashboard page. 
 
 5.3. There will be three card buttons:
 
-5.4. The first card buttons will be titled “UW COVID-19” and will link to the UW COVID-19 Testing Results page (https://www.washington.edu/coronavirus/testing-results/) .
-
-5.5. The second card button will be titled “King County” and will link to the King County COVID-19 data dashboard (https://www.kingcounty.gov/depts/health/communicable-diseases/disease-control/novel-coronavirus/data-dashboard.aspx)
-
-5.6. The third card button will be titled “Washington State” and will link to the Washington Department of Health (DOH) COVID-19 page (https://www.doh.wa.gov/emergencies/coronavirus)
-
-
+* 5.3.1. The first card buttons will be titled “UW COVID-19” and will link to the UW COVID-19 Testing Results page (https://www.washington.edu/coronavirus/testing-results/) .
+* 5.3.2. The second card button will be titled “King County” and will link to the King County COVID-19 data dashboard (https://www.kingcounty.gov/depts/health/communicable-diseases/disease-control/novel-coronavirus/data-dashboard.aspx)
+* 5.3.3. The third card button will be titled “Washington State” and will link to the Washington Department of Health (DOH) COVID-19 page (https://www.doh.wa.gov/emergencies/coronavirus)
 
 ##6: Drop a Note
 
@@ -126,7 +125,16 @@ _Image of Drop a Note form as a wireframe_
 
 6.3. The form created from clicking “Drop a Note” will contain a card title, description, input fields, and a “Submit” button. 
 
-6.4. The submitted screen will have an “X” icon in the top right corner; clicking it closes the form
+6.4. From the time a user opens the form to the time they've successfully submitted the form, there will be a button with an “x” icon in the top right corner; clicking it closes the form. 
+
+**Modified/Current** 6.4. On the top right corner, the form will have a button with an “x” icon; clicking it closes the form.
+
+--
+**6.4. used to be:**
+
+* The submitted screen will have an “X” icon in the top right corner; clicking it closes the form
+
+--
 
 6.5. The user will be able to check the “Feedback?” and “Resource?” checkboxes
 
@@ -148,17 +156,22 @@ _Image of Drop a Note form as a wireframe_
 
 6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
 
-6.15. Clicking the top right “X” icon will close the modal sheet.
+6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message. 
+
+--
+We used to have this other requirement, but is now omitted as it is the same requirement detailed in requirement 6.4.
+
+* Clicking the top right “X” icon will close the modal sheet.
+
+--
 
 _Image of successful Drop a Note form submission as a wireframe_
 
 ![Drop a Note form submission](img/submission.png)
 
-
 ##7: Section View Page
 
 _Image of Response Section View Page as a wireframe_
-
 
 ![Responses Section View Page Wireframe](img/sectionview.png)
 
