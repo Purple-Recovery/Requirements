@@ -10,7 +10,7 @@
 	* Team-Curated: Identified as a resource/link appropriate to be added to Purple Recovery section (e.g., we might identify the UW Minecraft server as a "Community" resource/link. Adding it will add it to the Community links.)
 	* User-submitted/via Drop-A-Note feature (defined in more detail in section below): Users or visitors of Purple Recovery are able to submit resources that they deem might be appropriate for any of our sections. The Purple Recovery team will then have a vetting process in determining if this link would be good to be added. If it is, it will be added to the same stored set of links for the specific section. 
 
-## Responsiveness
+## Target Screen Size
 * This will be built for screen sizes 1152 pixels wide. Anything larger will center the elements on the screen. E.g., if the screenwidth is 1300 pixels wide, element designs and functionality will stay the same, but there will be an extra 74 pixels of white space on both left and right sides; (1300 - 1152)/2 = 74.
 
 ## 1: Main Dashboard
@@ -131,8 +131,6 @@ _Image of Drop a Note form as a wireframe_
 
 6.3. The form created from clicking “Drop a Note” will contain a card title, description, input fields, and a “Submit” button. 
 
-6.4. From the time a user opens the form to the time they've successfully submitted the form, there will be a button with an “x” icon in the top right corner; clicking it closes the form. 
-
 **Modified/Current** 6.4. On the top right corner, the form will have a button with an “x” icon; clicking it closes the form.
 
 --
@@ -162,14 +160,7 @@ _Image of Drop a Note form as a wireframe_
 
 6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
 
-6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message. 
-
---
-We used to have this other requirement, but is now omitted as it is the same requirement detailed in requirement 6.4.
-
-* Clicking the top right “X” icon will close the modal sheet.
-
---
+6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message modal screen. 
 
 _Image of successful Drop a Note form submission as a wireframe_
 
