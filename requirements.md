@@ -32,7 +32,7 @@ _Image of Main Dashboard view as a wireframe_
 
 ![Wireframe of Main Dashboard view](img/dashboard.jpg)
 
-**Modified/Current/Current** 1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
+**Modified/Current** 1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
 
 * Resources Section - See All
 * Responses - Find Articles
