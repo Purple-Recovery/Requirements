@@ -21,6 +21,7 @@
 1.3 The colors and typography used for the web app will adhere to the UW Branding Guide.
 
  _Image of University of Washington Branding Guide for reference_
+ 
 ![University of Washington Branding Guide](img/brand.png)
 
 1.4. The web app will be divided into these 5 sections: Resources, Responses, Community, Trackers & Dashboards, and Drop a Note. 
@@ -28,6 +29,7 @@
 1.5. Each section will be displayed as a box with content on the main page.
 
 _Image of Main Dashboard view as a wireframe_
+
 ![Wireframe of Main Dashboard view](img/dashboard.jpg)
 
 **Modified/Current/Current** 1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
@@ -123,7 +125,6 @@ Where [subsection name] will be replaced with the following respective names: �
 _Image of Drop a Note form as a wireframe_
 
 ![Drop a Note form Wireframe](img/dropanote.png)
-
 
 6.1. On the bottom right of each page, there will be a sticky square section, containing, “Anything missing?” and a button that contains the text “Drop a Note”. 
 
