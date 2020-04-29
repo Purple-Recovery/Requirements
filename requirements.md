@@ -6,6 +6,12 @@
 * __Breadcrumb Link__: a type of secondary navigation scheme that reveals the user's location in the website relative to the Main Dashboard page.
 * __Card Button__: An html card component that acts as a button to link to an external site.
 * __Sticky__: fixed position on screen and always visible regardless of the user’s current scrolling position.
+* __"Added to Purple Recovery"__: Each of the main sections ("Resources", "Responses", "Community", and "Trackers & Dashboards") will have a stored set of links. How they will be stored can be decided by engineers. There are two ways they are added: 
+	* Team-Curated: Identified as a resource/link appropriate to be added to Purple Recovery section (e.g., we might identify the UW Minecraft server as a "Community" resource/link. Adding it will add it to the Community links.)
+	* User-submitted/via Drop-A-Note feature (defined in more detail in section below): Users or visitors of Purple Recovery are able to submit resources that they deem might be appropriate for any of our sections. The Purple Recovery team will then have a vetting process in determining if this link would be good to be added. If it is, it will be added to the same stored set of links for the specific section. 
+
+## Responsiveness
+* This will be built for screen sizes 1152 pixels wide. Anything larger will center the elements on the screen. E.g., if the screenwidth is 1300 pixels wide, element designs and functionality will stay the same, but there will be an extra 74 pixels of white space on both left and right sides; (1300 - 1152)/2 = 74.
 
 ## 1: Main Dashboard
 1.1. This web app will be made with HTML, CSS, JavaScript, and React.
