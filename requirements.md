@@ -32,29 +32,13 @@ _Image of Main Dashboard view as a wireframe_
 
 ![Wireframe of Main Dashboard view](img/dashboard.jpg)
 
-**Modified/Current** 1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
+1.6. Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page. The individual button in each of the sections will contain the respective text (phrase after the dash):
 
 * Resources Section - See All
 * Responses - Find Articles
 * Community - Stay Connected
 
---
-**1.6 used to be:**
-
-* Every section (excluding Trackers & Dashboards and Drop a Note) has a button to open a section’s additional information on a new page.
-* The buttons to open a section’s additional information on a new Section View Page will be named accordingly: Resources - “See All”, Responses - “Find Articles”, and Community - “Stay Connected”.
-
---
-
-**Modified/Current** 1.7. On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. These will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
-
---
-**1.7 used to be:** 
-
-* On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. 
-* The title and subheader will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
-
---
+1.7. On the top left of each page, the dashboard header will contain “Purple Recovery” as a title header, and “COVID-19 Information for UW Students” as a subheader. These will be sticky on each page.  When not on the main page, clicking the title and/or subheader will bring the user back to the main dashboard page.
 
 1.8. On the top right of the landing page, there will be a banner displaying the title and date posted of the newest message or update posted in the Messages & Updates section found in the [Official UW COVID-19 Page](https://www.washington.edu/coronavirus/). Clicking this will link to the corresponding message or update link.
 
@@ -71,16 +55,7 @@ _Image of Main Dashboard view as a wireframe_
 2.5. The sub-section hyperlinks will follow this format: https://www.washington.edu/coronavirus/#[subsection name]
 Where [subsection name] will be replaced with the following respective names: ‘health’, ‘staff’, ‘classes’, ‘operations’, and ‘travel’.
 
-**Modified/Current** 2.6. The “Quick Links” section, which is the right column underneath the Resources section, will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”. These will be displayed in a list view of text hyperlinks, and clicking any of them will redirect the user to that resource’s external website.
-
---
-**2.6. used to be:** 
-
-* The “Quick Links” section will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”.
-* Each of the hyperlinks will be displayed in a list view underneath the “Quick Links” section as a text hyperlink.
-* Clicking one of them will redirect the user to that resource’s external website. 
-
---
+2.6. The “Quick Links” section, which is the right column underneath the Resources section, will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”. These will be displayed in a list view of text hyperlinks, and clicking any of them will redirect the user to that resource’s external website.
 
 ##3: Responses
 
@@ -88,21 +63,13 @@ Where [subsection name] will be replaced with the following respective names: �
 
 3.2. The articles will be displayed as card buttons with the article title on the right and the page cover image in the article on the left (if available). 
 
-3.4. The Responses section will display 3 of the most recently added articles to Purple Recovery on the main dashboard page.
+3.3. The Responses section will display 3 of the most recently added articles to Purple Recovery on the main dashboard page.
 
-3.5. The section will display a ‘Find Articles’ button in the bottom right corner that links to the Responses’ section view page.
+3.4. The section will display a ‘Find Articles’ button in the bottom right corner that links to the Responses’ section view page.
 
 ##4: Community
 
-**Modified/Current** 4.1. This section will contain the three most recently added Community links to Purple Recovery. These links can either be team-curated (added by Purple Recovery team) or added by the public via "Drop A Note" (and then verified by Purple Recovery team). 
-
---
-**4.1 used to be:**
-
-* This section will contain links to Purple Recovery team-curated community resources.
-* The Community section will display 3 of the most recently added community resources to Purple Recovery on the main dashboard page.
-
---
+4.1. This section will contain the three most recently added Community links to Purple Recovery. These links can either be team-curated (added by Purple Recovery team) or added by the public via "Drop A Note" (and then verified by Purple Recovery team). 
 
 4.2. Each link will be displayed as a card button with the Community resource title on the right and a related icon on the left. 
 
@@ -132,14 +99,7 @@ _Image of Drop a Note form as a wireframe_
 
 6.3. The form created from clicking “Drop a Note” will contain a card title, description, input fields, and a “Submit” button. 
 
-**Modified/Current** 6.4. On the top right corner, the form will have a button with an “x” icon; clicking it closes the form.
-
---
-**6.4. used to be:**
-
-* The submitted screen will have an “X” icon in the top right corner; clicking it closes the form
-
---
+6.4. On the top right corner, the form will have a button with an “x” icon; clicking it closes the form.
 
 6.5. The user will be able to check the “Feedback?” and “Resource?” checkboxes
 
