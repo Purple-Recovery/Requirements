@@ -149,6 +149,6 @@ _Image of Response Section View Page as a wireframe_
 
 7.8. The “Drop a Note” feature will stay sticky in the bottom right of the page view--the same location as the main dashboard.
 
-7.9. The section view page will contain links to other resources’ section view pages on the right hand side under the heading “Other Sections”.
+7.9. The section view page will contain a text navigation of all of the resources’ section view pages on the right hand side under the heading “Sections”. The current page that the user is on will be a deadlink/disabled link. 
 
 ------
