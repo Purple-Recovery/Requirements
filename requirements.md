@@ -93,35 +93,35 @@ _Image of Drop a Note form as a wireframe_
 
 ![Drop a Note form Wireframe](img/dropanote.png)
 
-6.1. On the bottom right of each page, there will be a sticky square section, containing, “Anything missing?” and a button that contains the text “Drop a Note”. 
+`complete` 6.1. On the bottom right of each page, there will be a sticky square section, containing, “Anything missing?” and a button that contains the text “Drop a Note”. 
 
-6.2. When clicked, the “Drop a Note” button will overlay a modal card form on top of the user’s current page position. 
+`complete` 6.2. When clicked, the “Drop a Note” button will overlay a modal form on top of the user’s current page position. 
 
-6.3. The form created from clicking “Drop a Note” will contain a card title, description, input fields, and a “Submit” button. 
+`complete` 6.3. The form created from clicking “Drop a Note” will contain a card title, description, input fields, and a “Submit” button. 
 
-6.4. On the top right corner, the form will have a button with an “x” icon; clicking it closes the form.
+`complete` 6.4. On the top right corner, the form will have a button with an “x” icon; clicking it closes the form.
 
-6.5. The user will be able to check the “Feedback?” and “Resource?” checkboxes
+`complete` 6.5. The user will be able to click either the “Feedback?” and “Resource?” radio buttons
 
-6.6. The user will be able to input string values in the “Full Name” and “Email” fields.
+`complete` 6.6. The user will be able to input string values in the “First Name”, "Last Name", and “Email” fields.
 
-6.7. The “Type of Resource” dropdown will consist of the following options: Resources, Responses, Community, Trackers and Dashboards, and Other/I’m Not Sure.
+`complete` 6.7. The “Type of Resource” dropdown will consist of the following options: Resources, Responses, Community, Trackers and Dashboards, and Other.
 
-6.8. If the “Resource?” checkbox is clicked, the user will be able to input string values in the “Link to Resource” and “Notes” fields and use the “Type of Resource” dropdown to choose a resource type. 
+`complete` 6.8. If the “Resource?” radio button is selected, the user will be able to input string values in the “Link to Resource” and “Notes” fields and use the “Type of Resource” dropdown to choose a resource type. 
 
-6.9. If the “Feedback?” checkbox is clicked, the user will be able to input string values in the “Feedback”  field.
+`complete` 6.9. If the “Feedback?” radio button is selected, the user will be able to input string values in the “Feedback”  field.
 
-6.10. The “Submit” button will push the entered data through an internal verification process.
+`complete` 6.10. The “Submit” button will push the entered data through an internal verification process.
 
-6.11. The verification process is done through Javascript or React and will ensure that categories that are checked should have all fields filled in and that formatting for email is syntactically correct (i.e. example@hostsite.com).
+`complete` 6.11. The verification process is done through React Hook and will ensure that categories that are checked should have all fields filled in and that formatting for email is syntactically correct (i.e. example@hostsite.com).
 
-6.12. The verification process will also validate submitted links in Javascript.
+`complete` 6.12. The verification process will also validate submitted links in React.
 
-6.13. If the submission is found to be incomplete by this verification process, the user will be prompted to edit fields that did not pass the verification process and submit again.
+`complete` 6.13. If the submission is found to be incomplete by this verification process, the user will be prompted to edit the fields highlighted that did not pass the verification process and submit again.
 
-6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
+`incomplete` 6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
 
-6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message modal screen. 
+`incomplete` 6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message modal screen. 
 
 _Image of successful Drop a Note form submission as a wireframe_
 
