@@ -107,9 +107,9 @@ _Image of Drop a Note form as a wireframe_
 
 `complete` 6.7. The “Type of Resource” dropdown will consist of the following options: Resources, Responses, Community, Trackers and Dashboards, and Other.
 
-`complete` 6.8. If the “Resource?” radio button is selected, the user will be able to input string values in the “Link to Resource” and “Notes” fields and use the “Type of Resource” dropdown to choose a resource type. 
+`complete` 6.8. If the “Resource” radio button is selected, the user will be able to input string values in the “Link to Resource” and “Notes” fields and use the “Type of Resource” dropdown to choose a resource type to submit altogether. 
 
-`complete` 6.9. If the “Feedback?” radio button is selected, the user will be able to input string values in the “Feedback”  field.
+`complete` 6.9. If the “Feedback” radio button is selected, the user will be able to input string values in the “Feedback”  field.
 
 `complete` 6.10. The “Submit” button will push the entered data through an internal verification process.
 
@@ -119,9 +119,9 @@ _Image of Drop a Note form as a wireframe_
 
 `complete` 6.13. If the submission is found to be incomplete by this verification process, the user will be prompted to edit the fields highlighted that did not pass the verification process and submit again.
 
-`incomplete` 6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
+`complete` 6.14. If the submission is complete and without error, a successful submission message will appear in place of the previous screen’s view.
 
-`incomplete` 6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message modal screen. 
+`complete` 6.15. On the top right corner, the successful submission message will have a button with an "x" icon; clicking it closes the sucessful submission message modal screen. 
 
 _Image of successful Drop a Note form submission as a wireframe_
 
