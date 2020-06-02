@@ -12,7 +12,7 @@
 	* User-submitted/via Drop-A-Note feature (defined in more detail in section below): Users or visitors of Purple Recovery are able to submit resources that they deem might be appropriate for any of our sections. The Purple Recovery team will then have a vetting process in determining if this link would be good to be added. If it is, it will be added to the same stored set of links for the specific section. 
 
 ## Target Screen Size
-`complete` * This will be built for screen sizes 1152 pixels wide. Anything larger will center the elements on the screen. E.g., if the screenwidth is 1300 pixels wide, element designs and functionality will stay the same, but there will be an extra 74 pixels of white space on both left and right sides; (1300 - 1152)/2 = 74.
+`complete` *This web app will be built for screen sizes 1400 pixels wide as the ideal view size.
 
 ## 1: Main Dashboard
 `complete` 1.1. This web app will be made with HTML, CSS, JavaScript, and React.
@@ -43,7 +43,7 @@ _Image of Main Dashboard view as a wireframe_
 
 `complete` 1.8. On the top right of the landing page, there will be a banner displaying the title and date posted of the newest message or update posted in the Messages & Updates section found in the [Official UW COVID-19 Page](https://www.washington.edu/coronavirus/). Clicking this will link to the corresponding message or update link.
 
-##2: Resources
+## 2: Resources
 
 `complete` 2.1. The Resources section will be divided into two subsections as columns. 
 
@@ -59,7 +59,7 @@ Where [subsection name] will be replaced with the following respective names: �
 
 `complete` 2.6. The “Quick Links” section, which is the right column underneath the Resources section, will display 6 individual hyperlinks found on the UW COVID-19 page: “CDC recommendation page”, “DOH page”, “COVID Call Center”, “UW Medicine page”, “UW Mental Health Resources”, and “Spring Quarter FAQ”. These will be displayed in a list view of text hyperlinks, and clicking any of them will redirect the user to that resource’s external website.
 
-##3: Responses
+## 3: Responses
 
 `complete` 3.1. This section will contain links to UW-community published material (The Daily, UW Faculty Messages, UW Facebook Pages, etc.). 
 
@@ -69,7 +69,7 @@ Where [subsection name] will be replaced with the following respective names: �
 
 `complete` 3.4. The section will display a ‘Find Articles’ button in the bottom right corner that links to the Responses’ section view page.
 
-##4: Community
+## 4: Community
 
 `complete` 4.1. This section will contain the three most recently added Community links to Purple Recovery. These links can either be team-curated (added by Purple Recovery team) or added by the public via "Drop A Note" (and then verified by Purple Recovery team). 
 
@@ -77,7 +77,7 @@ Where [subsection name] will be replaced with the following respective names: �
 
 `complete` 4.3. The section will display a ‘Stay Connected’ button in the bottom right corner that links to the Community’s section view page.
 
-##5: Trackers & Dashboards
+## 5: Trackers & Dashboards
 
 `complete` 5.1 This section will contain links to data visualization dashboards regarding COVID-19 statistics. 
 
@@ -85,14 +85,14 @@ Where [subsection name] will be replaced with the following respective names: �
 
 `complete` 5.3. There will be three card buttons:
 
-`complete` * 5.3.1. The first card buttons will be titled “UW COVID-19” and will link to the UW COVID-19 Testing Results page (https://www.washington.edu/coronavirus/testing-results/) .
+`complete` *5.3.1. The first card buttons will be titled “UW COVID-19” and will link to the UW COVID-19 Testing Results page (https://www.washington.edu/coronavirus/testing-results/) .
 
-`complete`* 5.3.2. The second card button will be titled “King County” and will link to the King County COVID-19 data dashboard (https://www.kingcounty.gov/depts/health/communicable-diseases/disease-control/novel-coronavirus/data-dashboard.aspx)
+`complete`*5.3.2. The second card button will be titled “King County” and will link to the King County COVID-19 data dashboard (https://www.kingcounty.gov/depts/health/communicable-diseases/disease-control/novel-coronavirus/data-dashboard.aspx)
 
-`complete` * 5.3.3. The third card button will be titled “Washington State” and will link to the Washington Department of Health (DOH) COVID-19 page (https://www.doh.wa.gov/emergencies/coronavirus)
+`complete` *5.3.3. The third card button will be titled “Washington State” and will link to the Washington Department of Health (DOH) COVID-19 page (https://www.doh.wa.gov/emergencies/coronavirus)
 > Notes on 5.3.1 - 5.3.3: Titles and links have been updated to be more informative. Third tracker/dashboard is now IHME, as we figured they are also a credible source.
 
-##6: Drop a Note
+## 6: Drop a Note
 
 _Image of Drop a Note form as a wireframe_
 
@@ -132,7 +132,7 @@ _Image of successful Drop a Note form submission as a wireframe_
 
 ![Drop a Note form submission](img/submission.png)
 
-##7: Section View Page
+## 7: Section View Page
 
 _Image of Response Section View Page as a wireframe_
 
